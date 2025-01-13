@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="author" content="katie hellmann">
+  <meta name="description" content="katie hellmann's software development portfolio">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="./src/output.css" rel="stylesheet">
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <!-- <script src="./js/main.js" type="module"></script> -->
+
+
+</head>
+<!-- navbar -->
+<nav class="bg-gray-900 text-purple-100  py-3 px-4 flex items-center justify-between">
+    <a class="font-bold text-xl tracking-tight" href="portfolio.html">Katie Hellmann</a>
+    <div class="flex items-center">
+        <a class="text-sm px-4 py-2 leading-none rounded-full hover:bg-gray-700" href="#banner">About</a>
+        <a class="text-sm px-4 py-2 leading-none rounded-full hover:bg-gray-700" href="mailto:kathellmann30@gmail.com?subject=Inquiry for Katie Hellmann &body=">Contact</a>
+    </div>
+</nav>
+<body>
+    <!-- hi banner -->
+    <section id="banner" class="bg-gray-800 py-8 z-10">
+        <div class="flex flex-col md:flex-row items-center max-w-6xl px-6 py-8 mx-auto">
+          <div class="w-full md:w-1/2 py-8">
+            <h1 class="text-purple-100 text-7xl font-semibold leading-none tracking-tighter">
+              Hi! I'm <br><span class="text-pink-400">Katie Hellmann, <br></span> Game and Web Developer.
+            </h1>
+          </div>
+          <div class="w-full md:w-1/2 py-8">
+            <img src="./src/me.jpeg" class="portrait">
+          </div>
+        </div>
+      </section>
+<!-- project cards -->
+<!-- source https://github.com/spacemadev/elevate-free-tailwind-business-template/ -->
+<section id="portfolio" class="portfolio-section py-16 px-4">
+    <div class="container mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-5xl font-bold mb-4">Showcase</h2>
+            <p class="text-lg text-indigo-500 font-semibold">Things I worked on :)</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            <div class="group portfolio-item relative hover:shadow-lg shadow-md rounded-lg overflow-hidden">
+                <a href="https://katiehellmann.github.io/audio-visualizer/">
+                    <img class="w-full h-60 object-cover" src="./src/audioviz.png" alt="Project 1">
+                    <div
+                        class="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-indigo-500 to-pink-500 opacity-0 transition duration-300 ease-in-out group-hover:opacity-70">
+                    </div>
+                    <div class="p-4 flex flex-col items-center justify-between relative z-10">
+                        <h3 class="text-lg font-medium text-txt group-hover:text-gray-dark">Chappell Roan-Themed Audio Visualizer</h3>
+                        <span class="text-sm font-bold text-pink-500 group-hover:text-indigo-500">Web App Development, JavaScript, HTML, CSS</span>
+                    </div>
+                </a>
+            </div>
+            <div class="group portfolio-item relative hover:shadow-lg shadow-md rounded-lg overflow-hidden">
+                <a href="https://devpost.com/software/scare-parts">
+                    <img class="w-full h-60 object-cover" src="./src/scareparts.jpg" alt="Project 2">
+                    <div
+                        class="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-indigo-500 to-pink-500 opacity-0 transition duration-300 ease-in-out group-hover:opacity-70">
+                    </div>
+                    <div class="p-4 flex flex-col items-center justify-between relative z-10">
+                        <h3 class="text-lg font-medium text-txt group-hover:text-gray-dark">Scare Parts: A Wolfjam 2024 Nexus Award Winner</h3>
+                        <span class="text-sm font-bold text-pink-500 group-hover:text-indigo-500">Hackathon, Game Development, C#, Unity</span>
+                    </div>
+                </a>
+            </div>
+            <div class="group portfolio-item relative hover:shadow-lg shadow-md rounded-lg overflow-hidden">
+                <a href="portfoliodoc.html">
+                    <img class="w-full h-60 object-cover" src="./src/portfolio.png" alt="Project 3">
+                    <div
+                        class="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-indigo-500 to-pink-500 opacity-0 transition duration-300 ease-in-out group-hover:opacity-70">
+                    </div>
+                    <div class="p-4 flex flex-col items-center justify-between relative z-10">
+                        <h3 class="text-lg font-medium text-txt group-hover:text-gray-dark">Portfolio Website</h3>
+                        <span class="text-sm font-bold text-pink-500 group-hover:text-indigo-500">Web Design, TailwindCSS, HTML</span>
+                    </div>
+                </a>
+            </div>
+            <!-- <div class="group portfolio-item relative hover:shadow-lg shadow-md rounded-lg overflow-hidden">
+                <a href="/project-4">
+                    <img class="w-full h-60 object-cover" src="https://spacema-dev.com/elevate/assets/images/portfolio-4.png" alt="Project 1">
+                    <div
+                        class="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-indigo-500 to-pink-500 opacity-0 transition duration-300 ease-in-out group-hover:opacity-70">
+                    </div>
+                    <div class="p-4 flex flex-col items-center justify-between relative z-10">
+                        <h3 class="text-lg font-medium text-txt group-hover:text-gray-dark">Awesome Project 4</h3>
+                        <span class="text-sm font-bold text-pink-500 group-hover:text-indigo-500">Web Design,
+                            Branding</span>
+                    </div>
+                </a>
+            </div>
+            <div class="group portfolio-item relative hover:shadow-lg shadow-md rounded-lg overflow-hidden">
+                <a href="/project-5">
+                    <img class="w-full h-60 object-cover" src="https://spacema-dev.com/elevate/assets/images/portfolio-5.png" alt="Project 1">
+                    <div
+                        class="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-indigo-500 to-pink-500 opacity-0 transition duration-300 ease-in-out group-hover:opacity-70">
+                    </div>
+                    <div class="p-4 flex flex-col items-center justify-between relative z-10">
+                        <h3 class="text-lg font-medium text-txt group-hover:text-gray-dark">Awesome Project 5</h3>
+                        <span class="text-sm font-bold text-pink-500 group-hover:text-indigo-500">Web Design,
+                            Branding</span>
+                    </div>
+                </a>
+            </div>
+            <div class="group portfolio-item relative hover:shadow-lg shadow-md rounded-lg overflow-hidden">
+                <a href="/project-6">
+                    <img class="w-full h-60 object-cover" src="https://spacema-dev.com/elevate/assets/images/portfolio-6.png" alt="Project 1">
+                    <div
+                        class="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-indigo-500 to-pink-500 opacity-0 transition duration-300 ease-in-out group-hover:opacity-70">
+                    </div>
+                    <div class="p-4 flex flex-col items-center justify-between relative z-10">
+                        <h3 class="text-lg font-medium text-txt group-hover:text-gray-dark">Awesome Project 6</h3>
+                        <span class="text-sm font-bold text-pink-500 group-hover:text-indigo-500">Web Design,
+                            Branding</span>
+                    </div> -->
+                <!-- </a>
+            </div> -->
+        </div>
+    </div>
+</section>
+</body>
+<!-- footer with socials -->
+<section class="pt-2 pb-2 bg-gray-800 text-purple-100 ">
+<footer class="flex flex-col space-y-10 justify-center m-10">
+
+    <nav class="flex justify-center flex-wrap gap-6 font-medium">
+        <a class="hover:text-gray-300" href="#">About</a>
+        <a class="hover:text-gray-300" href="mailto:kathellmann30@gmail.com?subject=Inquiry for Katie Hellmann &body=">Contact</a>
+        <a class="hover:text-gray-300" href="https://katiehellmann.itch.io">itch.io</a>
+        <a class="hover:text-gray-300" href="#banner">Back to Top</a>
+    </nav>
+
+    <div class="flex justify-center space-x-5">
+        <a href="https://github.com/katiehellmann" target="_blank" rel="noopener noreferrer">
+            <img src="https://img.icons8.com/fluent/30/000000/github.png" />
+        </a>
+        <a href="https://www.linkedin.com/in/katie-hellmann-rit/" target="_blank" rel="noopener noreferrer">
+            <img src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
+        </a>
+
+
+    </div>
+    <p class="text-center font-medium">&copy; 2025 Katie Hellmann.</p>
+</footer>
+</section>
+
+</html>
