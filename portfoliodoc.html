@@ -5,20 +5,95 @@
   <meta charset="utf-8">
   <title></title>
   <meta name="author" content="katie hellmann">
-  <meta name="description" content="fruit game">
+  <meta name="description" content="katie hellmann's portfolio documentation">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link href="css/styles.css" rel="stylesheet">
-  <script src="https://pixijs.download/release/pixi.js"></script>
-  <script src="js/main.js" type="module"></script>
+  <link href="./src/output.css" rel="stylesheet">
 
 
 </head>
 
-<body>
+<!-- navbar -->
+<nav class="bg-gray-900 text-purple-100  py-3 px-4 flex items-center justify-between">
+  <a class="font-bold text-xl tracking-tight" href="index.html">Katie Hellmann</a>
+  <div class="flex items-center">
+    <a class="text-sm px-4 py-2 leading-none rounded-full hover:bg-gray-700" href="index.html">Back</a>
+      <a class="text-sm px-4 py-2 leading-none rounded-full hover:bg-gray-700" href="about.html">About</a>
+      <a class="text-sm px-4 py-2 leading-none rounded-full hover:bg-gray-700" href="mailto:kathellmann30@gmail.com?subject=Inquiry for Katie Hellmann &body=">Contact</a>
+  </div>
+</nav>
 
-  <p>Hello, world!</p>
+<body class="bg-gray-800 text-purple-100">
+
+  <div class="max-w-screen-xl mx-auto py-8 px-4 lg:py-16 lg:px-6" >
+    <div class="text-center mb-10">
+      <h1 class="text-5xl text-pink-400 font-bold">Personal Portfolio Project</h1>
+        <h2 class="text-3xl ">Skills and Processes:</h2>
+    </div>
+
+    <div class="flex flex-col md:flex-row">
+        <!-- can help image -->
+        <div class="mr-0 md:mr-8 mb-6 md:mb-0">
+            <img class="w-1/2 md:w-full mx-auto" src="./src/wireframe.jpg" alt="can_help_banner">
+        </div>
+        <!-- end can help image -->
+
+        <div class="flex-1 flex flex-col sm:flex-row flex-wrap -mb-4 -mx-2">
+            <div class="w-full sm:w-1/2 mb-4 px-2 ">
+                <div class="h-full py-4 px-6 border border-pink-400 border-t-0 border-l-0 rounded-br-xl">
+                    <h3 class="text-2xl font-bold text-md mb-6">Improving Existing Knowledge:</h3>
+                    <p class="text-sm">This project reinforced my existing knowledge of HTML, CSS, and Node.js. I utilized Visual Studio Code as my code editor and currently have the website deployed using GitHub Pages. </p>
+                </div>
+            </div>
+            <div class="w-full sm:w-1/2 mb-4 px-2 ">
+                <div class="h-full py-4 px-6 border border-pink-400 border-t-0 border-l-0 rounded-br-xl">
+                    <h3 class="text-2xl font-bold text-md mb-6">User Interface:</h3>
+                    <p class="text-sm">I intentionally took the time to create and leverage preexisting TailwindCSS components that give feedback to the user based on different states. This can been seen in the Showcase section and in the navigation bar.</p>
+                </div>
+            </div>
+
+            <div class="w-full sm:w-1/2 mb-4 px-2 ">
+                <div class="h-full py-4 px-6 border border-pink-400 border-t-0 border-l-0 rounded-br-xl">
+                    <h3 class="text-2xl font-bold text-md mb-6">Learning TailwindCSS:</h3>
+                    <p class="text-sm">This website is my first attempt using the TailwindCSS framework. To create a consistent web design, I leveraged several templates and adjusted them to my liking. This allowed me to create seamless responsive designs that look good on any device.</p>
+                </div>
+            </div>
+
+            <div class="w-full sm:w-1/2 mb-4 px-2 ">
+                <div class="h-full py-4 px-6 border border-pink-400 border-t-0 border-l-0 rounded-br-xl">
+                    <h3 class="text-2xl font-bold text-md mb-6">Future Improvements:</h3>
+                    <p class="text-sm">My portfolio in its current state is very simple. In the future, I would like to improve the aesthetic to build a personal brand to stand out. This would include adjusting the color palette and adding more symbols to interactable items.</p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
 
 </body>
+<section class="pt-2 pb-2 bg-gray-800 text-purple-100 ">
+  <footer class="flex flex-col space-y-10 justify-center m-10">
+  
+      <nav class="flex justify-center flex-wrap gap-6 font-medium">
+          <a class="hover:text-gray-300" href="about.html">About</a>
+          <a class="hover:text-gray-300" href="mailto:kathellmann30@gmail.com?subject=Inquiry for Katie Hellmann &body=">Contact</a>
+          <a class="hover:text-gray-300" href="https://katiehellmann.itch.io">itch.io</a>
+          <a class="hover:text-gray-300" href="#banner">Back to Top</a>
+      </nav>
+  
+      <div class="flex justify-center space-x-5">
+          <a href="https://github.com/katiehellmann" target="_blank" rel="noopener noreferrer">
+              <img src="https://img.icons8.com/fluent/30/000000/github.png" />
+          </a>
+          <a href="https://www.linkedin.com/in/katie-hellmann-rit/" target="_blank" rel="noopener noreferrer">
+              <img src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
+          </a>
+  
+  
+      </div>
+      <p class="text-center font-medium">&copy; 2025 Katie Hellmann.</p>
+  </footer>
+  </section>
 
 </html>
