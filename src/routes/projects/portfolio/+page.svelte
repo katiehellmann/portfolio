@@ -17,7 +17,7 @@ Project Overview:
 A website that allows me to show off both my web development skills as well as interesting projects I have completed.
 
 Improving Existing Knowledge:
-Initally, I created the first version of this website without Svelte or Node.js. However, I've refactored it! This project reinforced my existing knowledge of Svelte, Svelte-kit, TailwindCSS, TypeScript, Node.js, HTML, JavaScript. I utilized Visual Studio Code as my code editor and currently have the website deployed using GitHub Pages.
+Initally, I created the first version of this website without Svelte or Node.js. However, I've refactored it! This project reinforced my existing knowledge of Svelte, Svelte-kit, TailwindCSS, TypeScript, Node.js, HTML, JavaScript. I utilized Visual Studio Code as my code editor and currently have the website deployed using Vercel.
 
 User Interface:
 I intentionally took the time to create and leverage preexisting TailwindCSS components that give feedback to the user based on different states. This can been seen in the Showcase section and in the navigation bar.
