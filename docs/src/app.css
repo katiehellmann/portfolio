@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+@tailwind utilities;
+
+
+@layer components {
+    .blog {
+        white-space: pre-line;
+    }
+    .link{
+        text-decoration: underline;
+        color: indigo;
+    }
+}
+
+
