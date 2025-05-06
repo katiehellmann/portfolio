@@ -42,6 +42,12 @@ import ShowcaseCard from "$lib/components/showcaseCard.svelte";
             href="/projects/portfolio"
             tags="Web Design, Svelte, TailwindCSS, TypeScript"
             />
+            <ShowcaseCard
+            title="Busy Bee Farm Mockup"
+            src="beefigma.png"
+            href="/projects/beefarm"
+            tags="Web Design, Figma"
+            />
         </div>
     </div>
 </section>
