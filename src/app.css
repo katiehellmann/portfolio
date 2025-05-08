@@ -12,6 +12,13 @@
         text-decoration: underline;
         color: indigo;
     }
+    .nav{
+        z-index: 100; /* set higher z-index value */
+        position: relative; /* position must be set for z-index to work */
+    }
+
 }
+
+
 
 

@@ -17,7 +17,8 @@ The Assignment:
 Create and customize an Audio Visualizer using JavaScript, HTML, CSS, and the Canvas API. 
 
 Contributions: 
-&nbsp- Improved my working knowledge of JavaScript, JavaScript Objects, ES5/ES6 functions, Canvas API
+&nbsp- A fun, dynamic web application that visualizes and manipulates Chappell Roan songs using the Canvas API for real-time rendering
+&nbsp- Designed and implemented interactive visual effects to enhance user engagement with JavaScript
 &nbsp- Hosted using GitHub Pages
 "
 />

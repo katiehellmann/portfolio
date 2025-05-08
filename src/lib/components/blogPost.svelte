@@ -7,16 +7,16 @@
     export let tags = 'tags';
     export let content = 'content here';
 </script>
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-  text-purple-100">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 text-purple-100">
     <div class="max-w-3xl mx-auto">
 
         <div class="py-8">
-            <h1 class="text-6xl font-bold mb-2">{title}</h1>
+            <h1 class="text-3xl sm:text-4xl font-bold mb-2">{title}</h1>
         </div>
-        <h2 class="text-3xl py-8">{headline}</h2>
+        <h2 class="text-xl sm:text-2xl py-8">{headline}</h2>
         <img {src} alt="" class="w-full h-auto mb-8">
-        <div class="blog mx-auto text-2xl text-purple-100">
-            <div class="text-2xl m-2 p-2 rounded-lg bg-gray-700">
+        <div class="blog mx-auto text-lg sm:text-xl text-purple-100">
+            <div class="text-lg sm:text-2xl m-2 p-2 rounded-lg bg-gray-700">
                 <h2 class="font-bold">Project Info:</h2>
                 {tags}
             </div>
