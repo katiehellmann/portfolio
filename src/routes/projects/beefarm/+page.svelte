@@ -13,10 +13,10 @@ tags="Software: Figma
 "
 content= "
 Goal:
-This mockup website was a practice exercise for me to better my skills in Figma. I aimed to make a website for a farm that sells bee products, but also had a coehesive family friendly farm vibe to it.
+This mockup desktop website was a practice exercise for me to better my skills in Figma. I aimed to make a website for a farm that sells bee products, but also had a coehesive family friendly farm vibe to it.
 
 Reflection:
-I've used Axure RP 10 before, so prototyping with Figma was nothing new to me. However, I was limited with the free plan of Figma, so I was only able to add small amounts of interactivity to the prototype. 
+I've used Axure RP 10 before, so prototyping with Figma was nothing new to me. However, I was limited with the free plan of Figma, so I was only able to add small amounts of interactivity to the prototype.  
 "
 />
 </div>

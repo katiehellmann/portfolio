@@ -21,12 +21,6 @@ import ShowcaseCard from "$lib/components/showcaseCard.svelte";
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
             <ShowcaseCard
-                title="Chappell Roan-Themed Audio Visualizer"
-                src="audioviz.png"
-                href="/projects/audioviz"
-                tags="Web App Development, JavaScript, HTML, CSS"
-            />
-            <ShowcaseCard
             title="Scare Parts: A Wolfjam 2024 Nexus Award Winner"
             src="scareparts.jpg"
             href="/projects/scareparts"
@@ -39,10 +33,28 @@ import ShowcaseCard from "$lib/components/showcaseCard.svelte";
             tags="Web Design, Svelte, TailwindCSS, TypeScript"
             />
             <ShowcaseCard
+            title="Book API"
+            src="book.png"
+            href="/projects/bookapi"
+            tags="RESTful APIs, JavaScript, Tailwind CSS"
+            />
+            <ShowcaseCard
             title="Busy Bee Farm Mockup"
             src="beefigma.png"
             href="/projects/beefarm"
             tags="Web Design, Figma"
+            />
+            <ShowcaseCard
+            title="Fishy Business"
+            src="fishybiz.png"
+            href="/projects/fishybiz"
+            tags="Game Development, C#"
+            />
+            <ShowcaseCard
+                title="Chappell Roan-Themed Audio Visualizer"
+                src="audioviz.png"
+                href="/projects/audioviz"
+                tags="Web App Development, JavaScript, HTML, CSS"
             />
         </div>
     </div>

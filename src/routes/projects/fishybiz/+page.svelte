@@ -3,10 +3,10 @@
 </script>
 <div class="bg-gray-800">
 <BlogPost
-title="Scare Parts"
-href="https://devpost.com/software/scare-parts"
-note="Our DevPost!"
-src="../scareparts.jpg"
+title="Fishy Business"
+href="https://macarenzle.itch.io/fishy-business"
+note="Play on itch.io"
+src="../fishybiz.png"
 headline = "The ocean's silliest landlord simulator!
 "
 tags="Engine: Unity
@@ -18,9 +18,16 @@ Development Period: 4 months
 "
 content= "
 Game Overview: 
+A 2D Underwater Stylized Apartment Management Idle Clicker Simulation game where you take care of fish tenants, and build and customize your property.
 
 Contributions: 
-
+&nbsp- Served as Team Lead and Main Developer
+&nbsp- Integrated both mobile and desktop controls
+&nbsp- Created various core gameplay systems, including:
+&nbsp&nbsp&nbsp&nbsp- Clicker Fish and Player Economy
+&nbsp&nbsp&nbsp&nbsp- Tenant Selection and Progression
+&nbsp&nbsp&nbsp&nbsp- Satisfaction System
+&nbsp&nbsp&nbsp&nbsp- Buying Rooms/Furniture
 "
 />
 
