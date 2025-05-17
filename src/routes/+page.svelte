@@ -1,23 +1,19 @@
 <script>
 import ShowcaseCard from "$lib/components/showcaseCard.svelte";
-
 </script>
-
 
       <section id="banner" class="bg-gray-800 py-8 z-10">
         <div class="flex flex-col md:flex-row items-center max-w-6xl px-6 py-8 mx-auto">
-          <div class="w-full md:w-2/3 py-4">
+          <div class="hover:animate-squeeze w-full md:w-2/3 py-4">
             <h1 class="text-purple-100 text-4xl sm:text-5xl md:text-7xl font-semibold leading-none tracking-tighter">
               Hi! I'm <br><span class="text-pink-400">Katie Hellmann, <br></span> Game and Web Developer.
             </h1>
           </div>
-          <!-- <div class="hidden sm:w-1/3 py-8">
-            <img src="me.jpeg" class="portrait" alt="professional portrait">
-          </div> -->
         </div>
       </section>
 <section id="portfolio" class="portfolio-section py-16 px-4">
     <div class="container mx-auto">
+       <!-- <App/> -->
         <div class="text-center mb-12">
             <h2 class="text-3xl md:text-5xl font-bold mb-4">Showcase</h2>
             <p class="text-lg text-indigo-500 font-semibold">Things I worked on :)</p>

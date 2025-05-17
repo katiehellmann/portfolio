@@ -2,6 +2,7 @@
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
 @tailwind utilities;
+@plugin "@midudev/tailwind-animations";
 
 
 @layer components {
@@ -13,8 +14,12 @@
         color: indigo;
     }
     .nav{
-        z-index: 100; /* set higher z-index value */
-        position: relative; /* position must be set for z-index to work */
+        z-index: 100;
+        position: relative; 
+    }
+    .showcaseCard{
+        z-index: 10;
+        position: relative;
     }
 
 }

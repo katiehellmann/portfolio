@@ -6,7 +6,7 @@
 
 </script>
 
-<div class="group portfolio-item relative hover:shadow-lg shadow-md rounded-lg overflow-hidden">
+<div class="hover:animate-pulsing group portfolio-item relative hover:shadow-lg  bg-white shadow-md rounded-lg overflow-hidden">
     <a {href}>
         <img class="w-full h-60 object-cover" {src} alt="" />
         <div
