@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/projects/beefarm/+page.svelte";
+export { default as component } from "../../../../src/routes/projects/bookapi/+page.svelte";

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
@@ -6,27 +6,56 @@
 @tailwind utilities;
 @plugin "@midudev/tailwind-animations";
 
-
 @layer components {
-    .blog {
-        white-space: pre-line;
-    }
-    .link{
-        text-decoration: underline;
-        color: indigo;
-    }
-    .nav{
-        z-index: 100;
-        position: relative; 
-    }
-    .showcaseCard{
-        z-index: 10;
-        position: relative;
-    }
+	.blog {
+		white-space: pre-line;
+	}
+	.link {
+		text-decoration: underline;
+		color: #e2bfc1;
+	}
+	.nav {
+		z-index: 100;
+		position: relative;
+	}
+	.showcaseCard {
+		z-index: 10;
+		position: relative;
+	}
 }
 
+@theme {
 
+	--color-surface-50: #f7f3ef;
+	--color-surface-100: #eae2d7;
+	--color-surface-200: #d7c4b1;
+	--color-surface-300: #c0a084;
+	--color-surface-400: #ae8061;
+	--color-surface-500: #9f6f53;
+	--color-surface-600: #805442;
+	--color-surface-700: #6e453a;
+	--color-surface-800: #5d3c36;
+	--color-surface-900: #513532;
+	--color-surface-950: #2e1b1a;
 
+	--color-accent-50: #fbf5f5;
+	--color-accent-100: #f7ecec;
+	--color-accent-200: #efdcdc;
+	--color-accent-300: #e2bfc1;
+	--color-accent-400: #d19b9e;
+	--color-accent-500: #bc777c;
+	--color-accent-600: #a55962;
+	--color-accent-700: #80424b;
+	--color-accent-800: #743d47;
+	--color-accent-900: #643741;
+	--color-accent-950: #361b20;
+}
+
+#header {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 
 

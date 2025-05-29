@@ -26,6 +26,9 @@ module.exports = {
       },
     },
   },
+   fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+      },
     plugins: [
       require('@tailwindcss/aspect-ratio'),
       // ...

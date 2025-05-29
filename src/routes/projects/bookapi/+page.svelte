@@ -1,7 +1,7 @@
 <script>
 	import BlogPost from "$lib/components/blogPost.svelte";
 </script>
-<div class="bg-gray-800">
+<div class="bg-surface-50">
 <BlogPost
 title="Book API"
 href="https://github.com/katiehellmann/rmwd-project1"

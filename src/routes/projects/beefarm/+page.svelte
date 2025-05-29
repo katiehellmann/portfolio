@@ -1,7 +1,7 @@
 <script>
 	import BlogPost from "$lib/components/blogPost.svelte";
 </script>
-<div class="bg-gray-800">
+<div class="bg-surface-50">
 <BlogPost
 title="Busy Bee Farm Figma Mockup"
 href="https://www.figma.com/proto/vGlLJQpZGHpocsciksXbq0/Website-Mockup?node-id=15-674&t=nYRqSE0DaWzOMKmr-1"

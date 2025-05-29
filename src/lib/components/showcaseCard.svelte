@@ -10,12 +10,12 @@
     <a {href}>
         <img class="w-full h-60 object-cover" {src} alt="" />
         <div
-            class="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-indigo-500 to-pink-500 opacity-0 transition duration-300 ease-in-out group-hover:opacity-70">
+            class="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-surface-500 to-accent-700 opacity-0 transition duration-300 ease-in-out group-hover:opacity-70">
         </div>
         <div class="p-4 flex flex-col items-center justify-between relative z-10">
-            <h3 class="font-inknut text-lg font-medium text-txt group-hover:text-gray-dark">{title}</h3>
+            <h3 class="text-lg font-medium text-txt group-hover:text-gray-dark">{title}</h3>
             {#if tags}
-            <span class="text-sm font-bold text-pink-500 group-hover:text-indigo-500">{tags}</span>
+            <span class="text-sm font-bold text-accent-500 group-hover:text-accent-900">{tags}</span>
             {/if}
         </div>
     </a>

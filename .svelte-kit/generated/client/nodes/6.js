@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/projects/bookapi/+page.svelte";
+export { default as component } from "../../../../src/routes/projects/fishybiz/+page.svelte";

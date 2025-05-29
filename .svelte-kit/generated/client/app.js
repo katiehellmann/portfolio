@@ -17,12 +17,12 @@ export const server_loads = [];
 
 export const dictionary = {
 		"/": [2],
-		"/about": [3],
-		"/projects/audioviz": [4],
-		"/projects/beefarm": [5],
-		"/projects/bookapi": [6],
-		"/projects/fishybiz": [7],
-		"/projects/portfolio": [8],
+		"/projects/audioviz": [3],
+		"/projects/beefarm": [4],
+		"/projects/bookapi": [5],
+		"/projects/fishybiz": [6],
+		"/projects/portfolio": [7],
+		"/projects/predictor": [8],
 		"/projects/scareparts": [9]
 	};
 
