@@ -12,7 +12,7 @@ headline = "The ocean's silliest landlord simulator!
 tags="Engine: Unity
 Languages: C#
 Version Control: GitLabs
-Platforms: Desktop, Moblie
+Platforms: Desktop, Mobile
 Team Size: 3
 Development Period: 4 months
 "

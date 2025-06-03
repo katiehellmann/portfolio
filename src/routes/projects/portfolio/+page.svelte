@@ -8,7 +8,7 @@ href="https://github.com/katiehellmann/portfolio"
 note="GitHub Repository!"
 src="../portfolio2.png"
 headline = "The writeup version!"
-tags="Languages and Frameworks: Svelte, Svelte-kit, TailwindCSS, TypeScript, Node.js, HTML, JavaScript
+tags="Languages and Frameworks: Svelte, Svelte-kit, TailwindCSS, Node.js, HTML, JavaScript
 Version Control: GitHub
 Platforms: Web
 "

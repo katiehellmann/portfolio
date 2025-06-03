@@ -8,7 +8,7 @@ href="https://practice-predictor-q5zklwibr-katiehellmanns-projects.vercel.app"
 note="View it here!"
 src="../predictor.png"
 headline = "Practice in Next.js"
-tags="Languages and Frameworks: Next.js, Typescript, RESTful APIs, TailwindCSS
+tags="Languages and Frameworks: Next.js, React, Typescript, RESTful APIs, TailwindCSS
 Version Control: GitHub
 Platforms: Web
 "
