@@ -59,6 +59,12 @@
 						tags="Fullstack Development, Next.js, TypeScript, RESTful APIs"
 					/>
 					<ShowcaseCard
+						title="SQL/Power BI Data Visualization"
+						src="sql.png"
+						href="/projects/sqlpractice"
+						tags="SQL, Power BI"
+					/>
+					<ShowcaseCard
 						title="Busy Bee Farm Mockup"
 						src="beefigma.png"
 						href="/projects/beefarm"
